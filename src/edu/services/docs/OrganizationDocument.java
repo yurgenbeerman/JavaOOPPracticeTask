@@ -39,6 +39,24 @@ public class OrganizationDocument extends Text {
         //TODO assign other fields
     }
 
+    public boolean isValid() {
+        if ((documentName.length() == 0) || (documentName == null)) {
+            return false;
+        }
+        /* TODO check all other fields + redefine the method by child classes.
+        private long documentId;
+        private String documentName;
+        private long documentAuthorId;
+        private GregorianCalendar documentCreationDate;
+        private DocumentType documentType;
+        private String documentNumber;
+        private DocumentStatus documentStatus;
+        private long orgId;
+        private Requester author;
+        */
+        // TODO ask if isValid before status tranzitions etc.
+    }
+
     public long getDocumentId() {
         return documentId;
     }

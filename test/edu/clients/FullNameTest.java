@@ -16,6 +16,5 @@ public class FullNameTest {
 
         //then
         org.junit.Assert.assertEquals("Should be equal strings", "Surname name secondName", fn.toString());
-
     }
 }

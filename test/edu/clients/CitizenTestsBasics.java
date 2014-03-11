@@ -9,8 +9,8 @@ public class CitizenTestsBasics {
     Citizen citizen;
     PublicService publicService;
 
-//TODO create method
-    citizen = new Citizen("surname", "name", "secondName");
-    publicService = new PublicService("Improvements service");
-
+    public void initCitizenAndPublicService() {
+        citizen = new Citizen("surname", "name", "secondName");
+        publicService = new PublicService("Improvements service");
+    }
 }

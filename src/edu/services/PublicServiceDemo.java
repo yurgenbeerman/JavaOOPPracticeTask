@@ -18,12 +18,12 @@ public class PublicServiceDemo {
 
         /* INITIALIZATION start */
         String[] infoRequestLifecycleString = {"Created", "Assigned", "Replied"};
-        DocumentLifecycle infoRequestLifecycle = createLinearLifecycle(infoRequestLifecycleString);
+        DocumentLifecycle infoRequestLifecycle = createLinearLifecycleFinalized(infoRequestLifecycleString);
         DocumentType infoRequestDocType = new DocumentType("Information_Request", "InfoReq_",infoRequestLifecycle);
         infoRequestDocType.setFinalized(true);
 
         String[] outcomingDocLifecycleString = {"Created", "Passed_for_sending", "Sent"};
-        DocumentLifecycle outcomingDocLifecycle = createLinearLifecycle(outcomingDocLifecycleString);
+        DocumentLifecycle outcomingDocLifecycle = createLinearLifecycleFinalized(outcomingDocLifecycleString);
         DocumentType outcomingDocType = new DocumentType("Outcoming_Document", "Out_",outcomingDocLifecycle);
         outcomingDocType.setFinalized(true);
 
@@ -124,10 +124,8 @@ public class PublicServiceDemo {
 
     }
 
-    private static DocumentLifecycle createLinearLifecycle(String[] orgDocStatusesStrings) {
+    private static DocumentLifecycle createLinearLifecycleFinalized(String[] orgDocStatusesStrings) {
         DocumentLifecycle infoRequestLifecycle = new DocumentLifecycle(orgDocStatusesStrings);
-        infoRequestLifecycle.setStartStatusIndex(0);
-        infoRequestLifecycle.setFinalStatusIndex(orgDocStatusesStrings.length - 1);
         infoRequestLifecycle.setFinalized(true);
         return infoRequestLifecycle;
     }
