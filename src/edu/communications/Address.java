@@ -1,5 +1,7 @@
 package edu.communications;
 
+import edu.services.docs.DocDefaults;
+
 /**
  * Created by yurii.pyvovarenko on 3/4/14.
  */
@@ -14,7 +16,12 @@ public class Address {
     String zipCode;
 
     public String toString() {
-        return zipCode + ", " + country + ", " + city + ", st. " + street + ", b. " + building + ", apt. " + apartment;
+        return zipCode +
+                DocDefaults.COMMA_SPACE + country +
+                DocDefaults.COMMA_SPACE + city +
+                DocDefaults.COMMA_STREET + street +
+                DocDefaults.COMMA_BUILDING + building +
+                DocDefaults.COMMA_APPARTMENT + apartment;
     }
 
     public void setApartment(String apartment) {
@@ -47,5 +54,13 @@ public class Address {
 
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public String getCityArea() {
+        return this.cityArea;
+    }
+
+    public String getRegion() {
+        return this.region;
     }
 }

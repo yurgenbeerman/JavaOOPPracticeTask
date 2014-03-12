@@ -1,5 +1,6 @@
 package edu.clients;
 
+import edu.services.docs.DocDefaults;
 import org.junit.*;
 import org.junit.Assert.*;
 
@@ -19,16 +20,16 @@ public class FullNameTest {
     }
 
     @Test
-    public void shouldBeNullToString_whenNull() throws Exception {
+    public void shouldToString_whenEmptyValues() throws Exception {
         //given
-        String s;
 
         //when
-        FullName fn = new FullName(null, null, null);
-        s = "";
+        FullName fn = new FullName("","","");
 
         //then
-        org.junit.Assert.assertEquals("", fn.toString());
+        org.junit.Assert.assertEquals(
+                DocDefaults.NO_SURNAME + " " + DocDefaults.NO_NAME + " " + DocDefaults.NO_SECOND_NAME,
+                fn.toString());
     }
 
     @Test

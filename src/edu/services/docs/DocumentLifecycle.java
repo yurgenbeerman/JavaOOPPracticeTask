@@ -23,8 +23,8 @@ public class DocumentLifecycle extends ArrayList<String> {
         for (String s : statuses){
             this.add(s);
         }
-        startStatusIndex = 0;
-        finalStatusIndex = statuses.length - 1;
+        setStartStatusIndex(0);
+        setFinalStatusIndex(statuses.length - 1);
     }
 
     public int getNextStatusIndex(int currentStatusIndex) {

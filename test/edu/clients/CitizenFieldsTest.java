@@ -1,6 +1,7 @@
 package edu.clients;
 
 import edu.communications.Address;
+import edu.services.docs.DocDefaults;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -91,20 +92,36 @@ public class CitizenFieldsTest {
 
     @Test
     public void testGetAddressString() throws Exception {
-        //when
+        //given
         Address citizenAddress = new Address();
-        citizenAddress.setCountry("Ukraine");
-        //citizenAddress.setRegion("Kyivska obl.");
-        citizenAddress.setCity("Kyiv");
-        //citizenAddress.setCityArea("Shevchenkivski");
-        citizenAddress.setStreet("Khreshchatyk");
-        citizenAddress.setBuilding("1A");
-        citizenAddress.setApartment("123H");
-        citizenAddress.setZipCode("01001");
-        citizen.setAddress(citizenAddress);
+
+        //when
+        String country = "Ukraine";
+        citizenAddress.setCountry(country);
+
+        String city = "Kyiv";
+        citizenAddress.setCity(city);
+
+        String street = "Khreshchatyk";
+        citizenAddress.setStreet(street);
+
+        String building = "1A";
+        citizenAddress.setBuilding(building);
+
+        String apartment = "123H";
+        citizenAddress.setApartment(apartment);
+
+        String zipCode = "01001";
+        citizenAddress.setZipCode(zipCode);
 
         //then
-        org.junit.Assert.assertEquals("01001, Ukraine, Kyiv, st. Khreshchatyk, b. 1A, apt. 123H", citizen.getAddressString());
+        org.junit.Assert.assertEquals(
+                zipCode +
+                        DocDefaults.COMMA_SPACE + country +
+                        DocDefaults.COMMA_SPACE + city +
+                        DocDefaults.COMMA_STREET + street +
+                        DocDefaults.COMMA_BUILDING + building +
+                        DocDefaults.COMMA_APPARTMENT + apartment, citizen.getAddressString());
     }
 
     @Test

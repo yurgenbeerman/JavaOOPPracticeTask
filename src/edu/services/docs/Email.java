@@ -21,7 +21,7 @@ public final class Email extends Text {
 
     /* IMPORTANT! all setters must check "if (! isEmailSent)" */
     public void sendEmail() {
-        //...
+        //TODO implement email sending
         this.emailSentDate = new GregorianCalendar();
         this.isFinalized = true;
 
