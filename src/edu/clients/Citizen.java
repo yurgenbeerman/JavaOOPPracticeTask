@@ -76,6 +76,9 @@ public class Citizen implements Requester, Emailable {
     public void setEmailAddress(String emailAddress) {
         /* TODO validate passed parameter:
          *   isEmailAddressValid(emailFromAddress)
+         *   Found two best validators:
+         *     1) http://commons.apache.org/proper/commons-validator/download_validator.cgi
+         *     2) https://java.net/projects/javamail/pages/Home#Download_JavaMail_1.5.1_Release
          */
         this.emailAddress = emailAddress;
     }

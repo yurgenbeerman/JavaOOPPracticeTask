@@ -18,6 +18,10 @@ public final class Email extends Text {
          *   areEmailAddressesValid(emailFromAddress)
          *   areEmailAddressesValid(emailToAddress)
          *   isEmailTextValid(emailText)
+         *
+         *   Found two best validators:
+         *     1) http://commons.apache.org/proper/commons-validator/download_validator.cgi
+         *     2) https://java.net/projects/javamail/pages/Home#Download_JavaMail_1.5.1_Release
          */
         this.emailFromAddress = emailFromAddress;
         this.emailToAddresses = emailToAddress;

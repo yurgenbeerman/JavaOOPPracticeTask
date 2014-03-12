@@ -64,27 +64,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Citizen.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Citizen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2359" selection-end="2359" vertical-scroll-proportion="-4.3076925" vertical-offset="1248" max-vertical-offset="2244">
+            <state line="80" column="95" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.46701846" vertical-offset="1064" max-vertical-offset="2295">
               <folding>
                 <element signature="e#1766#1767#0" expanded="true" />
                 <element signature="e#1797#1798#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#2287#2288#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2483#2484#0" expanded="true" />
-                <element signature="e#2510#2511#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2690#2691#0" expanded="true" />
-                <element signature="e#2742#2743#0" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2844#2845#0" expanded="true" />
-                <element signature="e#2876#2877#0" expanded="true" />
+                <element signature="e#2480#2481#0" expanded="true" />
+                <element signature="e#2515#2516#0" expanded="true" />
+                <element signature="e#2545#2546#0" expanded="true" />
+                <element signature="e#2673#2674#0" expanded="true" />
+                <element signature="e#2711#2712#0" expanded="true" />
+                <element signature="e#2738#2739#0" expanded="true" />
+                <element signature="e#2770#2771#0" expanded="true" />
+                <element signature="e#2885#2886#0" expanded="true" />
+                <element signature="e#2918#2919#0" expanded="true" />
+                <element signature="e#2970#2971#0" expanded="true" />
+                <element signature="e#3014#3015#0" expanded="true" />
+                <element signature="e#3072#3073#0" expanded="true" />
+                <element signature="e#3104#3105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +130,7 @@
       <file leaf-file-name="Email.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="461" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1360">
+            <state line="21" column="9" selection-start="672" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -161,10 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddressTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/communications/AddressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="16" selection-start="572" selection-end="572" vertical-scroll-proportion="-0.6263441" vertical-offset="709" max-vertical-offset="1530">
+            <state line="13" column="48" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,9 +205,9 @@
         <option value="$PROJECT_DIR$/test/edu/communications/AddressTest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java" />
         <option value="$PROJECT_DIR$/test/edu/services/docs/EmailTest.java" />
+        <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/Email.java" />
         <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
-        <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
       </list>
     </option>
   </component>
@@ -840,7 +839,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2293578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31198686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25779969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -938,20 +937,19 @@
           <folding>
             <element signature="e#1766#1767#0" expanded="true" />
             <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2742#2743#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
+            <element signature="e#2711#2712#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
+            <element signature="e#2885#2886#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3014#3015#0" expanded="true" />
+            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#3104#3105#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1223,37 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="461" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2359" selection-end="2359" vertical-scroll-proportion="-4.3076925" vertical-offset="1248" max-vertical-offset="2244">
-          <folding>
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2742#2743#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2876#2877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="0" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3536">
@@ -1265,9 +1232,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/communications/AddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="572" selection-end="572" vertical-scroll-proportion="-0.6263441" vertical-offset="709" max-vertical-offset="1530">
+        <state line="13" column="48" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="672" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="95" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.46701846" vertical-offset="1064" max-vertical-offset="2295">
+          <folding>
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
+            <element signature="e#2711#2712#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
+            <element signature="e#2885#2886#0" expanded="true" />
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3014#3015#0" expanded="true" />
+            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#3104#3105#0" expanded="true" />
           </folding>
         </state>
       </provider>
