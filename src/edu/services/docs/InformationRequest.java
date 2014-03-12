@@ -15,6 +15,7 @@ public final class InformationRequest extends IncomingDocument {
     public InformationRequest(DocumentType documentType, Requester author, PublicService publicService) {
         super(documentType, author, publicService);
         informationResponsible = (InformationResponsible) super.getIncomingDocResponsible();
+        documentType.setDocTypeInUse(true);
     }
 
     public String getAddressForReply() {

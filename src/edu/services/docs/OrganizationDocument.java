@@ -3,6 +3,7 @@ package edu.services.docs;
 import edu.clients.Requester;
 import edu.services.orgs.PublicService;
 
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
@@ -38,22 +39,52 @@ public class OrganizationDocument extends Text {
         //TODO assign other fields
     }
 
+    /* TODO redefine the method by child classes. */
     public boolean isValid() {
-        if ((documentName.length() == 0) || (documentName == null)) {
+        if (null == documentName) {
+            return false;
+        } else if (documentName.length() == 0) {
             return false;
         }
-        /* TODO check all other fields + redefine the method by child classes.
-        private long documentId;
-        private String documentName;
-        private long documentAuthorId;
-        private GregorianCalendar documentCreationDate;
-        private DocumentType documentType;
-        private String documentNumber;
-        private DocumentStatus documentStatus;
-        private long orgId;
-        private Requester author;
-        */
-        // TODO ask if isValid before status tranzitions etc.
+
+        if (documentId < 0) {
+            return false;
+        } else {
+            // TODO check if there's no document with same id?
+        }
+
+        if ((documentCreationDate.after(new GregorianCalendar(2014, 0, 0))) || (null == documentCreationDate)) {
+            return false;
+        } else if (documentCreationDate.before(new GregorianCalendar())) {
+            return false;
+        }
+
+        if (null == documentType) {
+            return false;
+        }
+
+        if ( (null == documentNumber) || (0 == documentNumber.length()) ) {
+            return false;
+        }
+
+        if (null == documentStatus) {
+            return false;
+        }
+
+        if (0 > orgId) {
+            return false;
+        } else {
+            // TODO check if there exists Organization having the orgId?
+        }
+
+        if (null == author) {
+            return false;
+        } else if (author.getId() != documentAuthorId) {
+            return false;
+        } else if ((documentAuthorId < 0)) {
+            return false;
+        }
+
         return true;
     }
 
@@ -121,6 +152,7 @@ public class OrganizationDocument extends Text {
         return documentStatus.getCurrentDocumentStatus().toString();
     }
 
+    // TODO ask if isValid() before status tranzitions etc.
 
     public void setNextDocumentStatus() {
         if (! isFinalized) {

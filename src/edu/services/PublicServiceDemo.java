@@ -71,17 +71,21 @@ public class PublicServiceDemo {
 
         InformationRequest infoRequest =
                 new InformationRequest(infoRequestDocType, requester, publicService);
-        infoRequestDocType.setDocTypeInUse(true);
         infoRequest.setText("What parks and streets improvements are planned for 2014 in Kyiv?");
         infoRequest.setAddressForReply(requester.getAddressString());
         infoRequest.setEmailForReply(requester.getEmailAddress());
 
+        //TODO define documentNumber or improve check of it in isValid()
         if (infoRequest != null) {
             requester.addRequest(infoRequest);
-            System.out.println("citizen: " + requester.getFullNameString());
-            System.out.println("    citizenId: " + requester.getId());
-            System.out.println("\npublicService: " + publicService.getOrgName() + "\n");
-            System.out.println(infoRequest.toString());
+            if (infoRequest.isValid()) {
+                System.out.println("requester: " + requester.getFullNameString());
+                System.out.println("    requesterId: " + requester.getId());
+                System.out.println("\npublicService: " + publicService.getOrgName() + "\n");
+                System.out.println(infoRequest.toString());
+            } else {
+                System.out.println("infoRequest is NOT VALID");
+            }
         } else {
             System.out.println("infoRequest is NULL");
         }
@@ -99,7 +103,6 @@ public class PublicServiceDemo {
 
         OutcomingDocument outcomingDocument =
                 new OutcomingDocument(outcomingDocType, informationResponsibleServant, publicService);
-        outcomingDocType.setDocTypeInUse(true);
         outcomingDocument.setText(informationResponsibleServant.getInformationForReply());
         infoRequest.setReactionDocument(outcomingDocument);
         outcomingDocument.setInitiatingDocument(infoRequest);
