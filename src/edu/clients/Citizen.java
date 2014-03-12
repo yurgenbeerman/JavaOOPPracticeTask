@@ -62,7 +62,11 @@ public class Citizen implements Requester, Emailable {
     }
 
     public String getFullNameString() {
-        return fullName.toString();
+        if (null != fullName) {
+            return fullName.toString();
+        } else {
+            return null;
+        }
     }
 
     public String getEmailAddress() {

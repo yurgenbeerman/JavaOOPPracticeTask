@@ -79,7 +79,7 @@ public class CitizenFieldsTest {
      }
 
     @Test
-    public void testGetAddress_whenNotNull() throws Exception {
+    public void testGetAddress() throws Exception {
         //when
         Address citizenAddress = new Address();
         citizen.setAddress(citizenAddress);
@@ -118,34 +118,52 @@ public class CitizenFieldsTest {
     }
 
     @Test
-    public void testGetRequesterOfficialId() throws Exception {
-
-    }
-
-    @Test
-    public void testGetRequesterName() throws Exception {
-
-    }
-
-    @Test
-    public void testGetRequesterAddress() throws Exception {
-
+    public void testGetOfficialId_whenNull() throws Exception {
+        //when
+        //then
+        org.junit.Assert.assertNull(citizen.getOfficialId());
     }
 
     @Test
     public void testGetOfficialId() throws Exception {
-
-        /*
+        //when
         citizen.setOfficialId("1234567890");
-        */
+
+        //then
+        org.junit.Assert.assertEquals("1234567890",citizen.getOfficialId());
+    }
+
+    @Test
+    public void testGetName() throws Exception {
+        //when
+        citizen = new Citizen("Petrenko","Taras","Ivanovych");
+
+        //then
+        org.junit.Assert.assertEquals("Petrenko Taras Ivanovych", citizen.getName());
+    }
+
+    @Test
+    public void testGetName_whenNull() throws Exception {
+        //when
+
+        //then
+        org.junit.Assert.assertNull(citizen.getName());
     }
 
     @Test
     public void testSetOfficialId() throws Exception {
+        //when
+        citizen.setOfficialId("");
 
-        /*
-        citizen.setOfficialId("1234567890");
-        */
+        //then
+        org.junit.Assert.assertEquals("",citizen.getOfficialId());
+    }
+
+    @Test
+    public void testSetOfficialId_whenNotDefined() throws Exception {
+        //when
+        //then
+        org.junit.Assert.assertNull(citizen.getOfficialId());
     }
 
     @Test
