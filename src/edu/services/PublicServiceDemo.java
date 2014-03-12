@@ -6,6 +6,9 @@ import edu.communications.Address;
 import edu.services.docs.*;
 import edu.services.orgs.PublicService;
 import edu.services.servants.InformationResponsible;
+import edu.utils.PublicRequestsUtils;
+
+import java.util.GregorianCalendar;
 
 /**
  * Created by yurii.pyvovarenko on 05.03.14.
@@ -75,16 +78,15 @@ public class PublicServiceDemo {
         infoRequest.setAddressForReply(requester.getAddressString());
         infoRequest.setEmailForReply(requester.getEmailAddress());
 
-        //TODO define documentNumber or improve check of it in isValid()
         if (infoRequest != null) {
             requester.addRequest(infoRequest);
-            if (infoRequest.isValid()) {
+            if (infoRequest.isValid().equals(DocDefaults.VALID)) {
                 System.out.println("requester: " + requester.getFullNameString());
                 System.out.println("    requesterId: " + requester.getId());
                 System.out.println("\npublicService: " + publicService.getOrgName() + "\n");
                 System.out.println(infoRequest.toString());
             } else {
-                System.out.println("infoRequest is NOT VALID");
+                System.out.println(infoRequest.isValid());
             }
         } else {
             System.out.println("infoRequest is NULL");
@@ -118,9 +120,17 @@ public class PublicServiceDemo {
         Email email = new Email(publicService.getEmailAddress(), requester.getEmailAddress(),
                 informationResponsibleServant.getInformationForReply());
         email.sendEmail();
-        publicService.sendDocumentToAddress(outcomingDocument,requester.getAddress());
+        outcomingDocument.setDocSentEmail(email);
+        System.out.println("\nThe Response (Outcoming Doc) was sent to Email: " + outcomingDocument.getDocSentEmailAddress() +
+                " on " + PublicRequestsUtils.toTimeAndDateString(outcomingDocument.getDocSentEmailDate()));
+
+        publicService.sendDocumentToAddress(outcomingDocument, requester.getAddress());
+        System.out.println("\nThe Response (Outcoming Doc) was sent to Address: " + outcomingDocument.getDocSentAddress() +
+                " on " + PublicRequestsUtils.toTimeAndDateString(outcomingDocument.getDocSentAddressDate()));
+
         outcomingDocument.setNextDocumentStatus();
         outcomingDocument.setFinalized(true);
+        //TODO: must set outcomingDocument.status to the last one "Sent" -- find out why it doesn't work!
 
         System.out.println("\ninfoRequest statuses history: " + infoRequest.getStatusesHistoryString());
         System.out.println("\ncitizen sent the next requests:\n   " + requester.getRequestsString());

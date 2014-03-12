@@ -64,51 +64,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Requester.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/clients/Requester.java">
+      <file leaf-file-name="CitizenResponsesTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.62171054" vertical-offset="308" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Citizen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <file leaf-file-name="CitizenRequestsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="-6.230769" vertical-offset="1011" max-vertical-offset="1819">
-              <folding>
-                <element signature="e#2228#2229#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentStatus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+            <state line="82" column="33" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Emailable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/communications/Emailable.java">
+      <file leaf-file-name="JavaSourceFileExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicServiceDemo.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+      <file leaf-file-name="OrganizationDocument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="41" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0741688" vertical-offset="1076" max-vertical-offset="2431">
+            <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="3434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutcomingDocument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -117,7 +112,7 @@
       <file leaf-file-name="InformationRequest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1020">
+            <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -126,7 +121,7 @@
       <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="52292">
+            <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
               <folding />
             </state>
           </provider>
@@ -135,7 +130,7 @@
       <file leaf-file-name="DocumentLifecycle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678">
+            <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
               <folding />
             </state>
           </provider>
@@ -172,13 +167,13 @@
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/FullNameTest.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java" />
-        <option value="$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java" />
         <option value="$PROJECT_DIR$/src/edu/clients/Requester.java" />
-        <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
-        <option value="$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java" />
         <option value="$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java" />
+        <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
+        <option value="$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java" />
+        <option value="$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java" />
       </list>
     </option>
   </component>
@@ -212,6 +207,89 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clients" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaOOPPracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -238,6 +316,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="edu/clients">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -336,89 +432,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaOOPPracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,8 +453,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
+    <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
   </component>
-  <component name="RunManager" selected="Application.PublicServiceDemo">
+  <component name="RunManager" selected="JUnit.CitizenResponsesTest">
     <configuration default="false" name="PublicServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.services.PublicServiceDemo" />
       <option name="VM_PARAMETERS" />
@@ -636,9 +651,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.PublicServiceDemo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CitizenResponsesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CitizenRequestsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CitizenResponsesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CitizenRequestsTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PublicServiceDemo" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -657,7 +672,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,19 +684,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32676518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2293578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21674877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40229884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -705,6 +720,149 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="89" selection-start="6926" selection-end="6935" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="146" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="33" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Requester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="39" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2176">
+          <folding>
+            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/communications/Emailable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="41" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1411">
@@ -784,14 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="844" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1020">
+        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
@@ -817,28 +968,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="-6.230769" vertical-offset="1011" max-vertical-offset="1819">
-          <folding>
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.84927535" vertical-offset="412" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -857,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1020">
@@ -878,16 +1003,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="25" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.7583333" vertical-offset="532" max-vertical-offset="3434">
+        <state line="136" column="89" selection-start="6926" selection-end="6935" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="2686">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="41" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0741688" vertical-offset="1076" max-vertical-offset="2431">
+        <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="40" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1785">
+          <folding>
+            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="33" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.62171054" vertical-offset="308" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>

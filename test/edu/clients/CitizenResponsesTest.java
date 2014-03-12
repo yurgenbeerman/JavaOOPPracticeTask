@@ -43,18 +43,29 @@ public class CitizenResponsesTest extends CitizenTestsBasics {
     @Test
     public void testGetResponsesString() throws Exception {
         //given
+        outcomingDocument.setText("responce text");
 
         //when
+        citizen.addResponse(outcomingDocument);
 
         //then
+        org.junit.Assert.assertTrue("Response must contain '" + outcomingDocument.getText() +
+                "' but its value is '" + citizen.getResponsesString() + "'",
+                citizen.getResponsesString().contains(outcomingDocument.getText()));
     }
+
 
     @Test
     public void testAddResponse() throws Exception {
         //given
+        citizen.addResponse(outcomingDocument);
+        int result = citizen.getResponses().size();
 
         //when
+        citizen.addResponse(outcomingDocument);
+        citizen.addResponse(outcomingDocument);
 
         //then
+        org.junit.Assert.assertEquals("Size of responses array should be " + (result + 2) + " but is " + citizen.getResponses().size(), result + 2, citizen.getResponses().size());
     }
 }

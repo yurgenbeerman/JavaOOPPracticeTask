@@ -1,10 +1,6 @@
 package edu.services.servants;
 
-import edu.clients.FullName;
-import edu.services.docs.IncomingDocument;
 import edu.services.orgs.PublicService;
-
-import java.util.ArrayList;
 
 /**
  * Created by yurii.pyvovarenko on 3/4/14.

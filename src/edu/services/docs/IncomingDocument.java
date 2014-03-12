@@ -18,8 +18,8 @@ public class IncomingDocument extends OrganizationDocument {
         super(documentType, author, publicService);
     }
 
-    public long getIncomingDocResponsibleId() {
-        return incomingDocResponsibleId;
+    public String isValid() {
+        return super.isValid();
     }
 
     public PublicServant getIncomingDocResponsible() {
@@ -80,7 +80,7 @@ public class IncomingDocument extends OrganizationDocument {
 
     public String toString() {
         String result =
-                "\n    isReceivedByPublicService? " + ( (true == this.isReceivedByPublicService) ? "Yes" : "No" ) +
+                "\n    isReceivedByPublicService? " + ( (this.isReceivedByPublicService) ? "Yes" : "No" ) +
                 "\n    incomingDocResponsible: " + getIncomingDocResponsibleName() +
                 "\n    reactionDocument Number: " + getReactionDocumentNumber();
         return super.toString() + result;

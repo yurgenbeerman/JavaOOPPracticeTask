@@ -2,8 +2,8 @@ package edu.services.docs;
 
 import edu.clients.Requester;
 import edu.services.orgs.PublicService;
+import static edu.services.docs.DocDefaults.*;
 
-import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
@@ -35,57 +35,60 @@ public class OrganizationDocument extends Text {
         this.orgId = publicService.getOrgId();
         this.documentType = documentType;
         this.documentNumber = documentType.getDocTypeShortName() + this.documentId;
-        documentStatus = new DocumentStatus(documentType.getDocumentLifecycle());
-        //TODO assign other fields
+        this.documentStatus = new DocumentStatus(documentType.getDocumentLifecycle());
+        this.documentCreationDate = documentStatus.getZeroStatusDate();
+        this.documentAuthorId = author.getId();
+
     }
 
-    /* TODO redefine the method by child classes. */
-    public boolean isValid() {
+    public String isValid() {
         if (null == documentName) {
-            return false;
+            return DOC_NAME_IS_NULL;
         } else if (documentName.length() == 0) {
-            return false;
+            return DOC_NAME_IS_EMPTY;
         }
 
         if (documentId < 0) {
-            return false;
+            return DOC_ID_SUBZERO;
         } else {
-            // TODO check if there's no document with same id?
+            // TODO ? check if there's no document with same id?
         }
 
-        if ((documentCreationDate.after(new GregorianCalendar(2014, 0, 0))) || (null == documentCreationDate)) {
-            return false;
-        } else if (documentCreationDate.before(new GregorianCalendar())) {
-            return false;
+        if (null == documentCreationDate) {
+            return DOC_CREATION_DATE_IS_NULL;
+        } else if (! documentCreationDate.after(new GregorianCalendar(2014, 0, 0))) {
+            return DOC_CREATION_DATE_NOT_AFTER_2014_0_0;
+        } else if (! documentCreationDate.before(new GregorianCalendar())) {
+            return DOC_CREATION_DATE_IS_NOT_BEFORE_NOW;
         }
 
         if (null == documentType) {
-            return false;
+            return DOC_TYPE_IS_NULL;
         }
 
         if ( (null == documentNumber) || (0 == documentNumber.length()) ) {
-            return false;
+            return DOC_TYPE_IS_NULL_ORZERO_LENGTH;
         }
 
         if (null == documentStatus) {
-            return false;
+            return DOC_STATUS_IS_NULL;
         }
 
         if (0 > orgId) {
-            return false;
+            return DOC_ORG_ID_IS_SUBZERO;
         } else {
             // TODO check if there exists Organization having the orgId?
         }
 
         if (null == author) {
-            return false;
+            return DOC_AUTHOR_IS_NULL;
         } else if (author.getId() != documentAuthorId) {
-            return false;
+            return DOC_AUTHOR_IDS_ARE_DIFFERENT;
         } else if ((documentAuthorId < 0)) {
-            return false;
+            return DOC_AUTHOR_ID_IS_SUBZERO;
         }
 
-        return true;
+        return VALID;
     }
 
     public long getDocumentId() {
@@ -149,10 +152,8 @@ public class OrganizationDocument extends Text {
     }
 
     public String getDocumentStatusString() {
-        return documentStatus.getCurrentDocumentStatus().toString();
+        return documentStatus.getCurrentDocumentStatus();
     }
-
-    // TODO ask if isValid() before status tranzitions etc.
 
     public void setNextDocumentStatus() {
         if (! isFinalized) {
@@ -201,13 +202,12 @@ public class OrganizationDocument extends Text {
     }
 
     public String toString() {
-        String result = documentType.getDocTypeName() + ": " +
+        return documentType.getDocTypeName() + ": " +
                 "\n    author: " + this.getAuthorName() +
                 "\n    text: " + this.getText() +
                 "\n    orgId: " + this.getOrgId() +
                 "\n    DocumentNumber: " + this.getDocumentNumber() +
                 "\n    DocumentStatusesHistory: " + this.getStatusesHistoryString();
-        return result;
     }
 
     public String getDocumentTypeName() {

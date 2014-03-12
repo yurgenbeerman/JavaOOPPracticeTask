@@ -3,6 +3,9 @@ package edu.services.orgs;
 import edu.communications.Address;
 import edu.communications.Emailable;
 import edu.services.docs.OrganizationDocument;
+import edu.services.docs.OutcomingDocument;
+
+import java.util.GregorianCalendar;
 
 /**
  * Created by yurii.pyvovarenko on 3/4/14.
@@ -71,16 +74,17 @@ public class PublicService implements Emailable {
         this.parentOrgId = parentOrgId;
     }
 
-    public void sendDocumentToAddress(OrganizationDocument document, Address address) {
+    public void sendDocumentToAddress(OutcomingDocument outcomingDocument, Address address) {
+        outcomingDocument.setDocSentAddress(address);
+        outcomingDocument.setDocSentAddressDate(new GregorianCalendar());
     }
 
     public String toString() {
-        String result = getOrgName() + ": " +
+        return getOrgName() + ": " +
                 "\n    address: " + this.getAddress() +
                 "\n    emailAddress: " + this.getEmailAddress() +
                 "\n    orgId: " + this.getOrgId() +
                 "\n    parentOrgId: " + this.getParentOrgId() +
                 "\n    hierarchyLevel: " + this.getHierarchyLevel();
-        return result;
     }
 }

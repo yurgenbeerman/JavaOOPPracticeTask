@@ -68,7 +68,7 @@ public class CitizenRequestsTest extends CitizenTestsBasics {
         //given
 
         //when
-        infoRequest.setText("");
+        infoRequest.setText("1");
         citizen.addRequest(infoRequest);
 
         //TODO check value of infoRequest.isValid()
@@ -83,6 +83,8 @@ public class CitizenRequestsTest extends CitizenTestsBasics {
 
         //when
         citizen.addRequest(infoRequest);
+        infoRequest.setText("1");
+
 
         //then
         org.junit.Assert.assertFalse("After addition the first request should not be empty string: " + citizen.getRequestsString() + ".", citizen.getRequestsString().equals(""));

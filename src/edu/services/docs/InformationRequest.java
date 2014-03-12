@@ -16,6 +16,11 @@ public final class InformationRequest extends IncomingDocument {
         super(documentType, author, publicService);
         informationResponsible = (InformationResponsible) super.getIncomingDocResponsible();
         documentType.setDocTypeInUse(true);
+        setDocumentName(documentType.getDocTypeName() + " #" + this.getDocumentId());
+    }
+
+    public String isValid() {
+        return super.isValid();
     }
 
     public String getAddressForReply() {

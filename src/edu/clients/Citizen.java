@@ -104,7 +104,7 @@ public class Citizen implements Requester, Emailable {
     public String getResponsesString() {
         String result = "";
         for (int i = 0; i < getResponses().size(); i++) {
-            result = result + getResponses().get(i);
+            result += getResponses().get(i);
         }
         return result;
     }

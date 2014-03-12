@@ -1,8 +1,11 @@
 package edu.services.docs;
 
 import edu.clients.Requester;
+import edu.communications.Address;
 import edu.services.orgs.PublicService;
 import edu.services.servants.PublicServant;
+
+import java.util.GregorianCalendar;
 
 /**
  * Created by yurii.pyvovarenko on 05.03.14.
@@ -11,12 +14,45 @@ import edu.services.servants.PublicServant;
 public class OutcomingDocument extends OrganizationDocument {
     private long initiatingDocId;
     private OrganizationDocument initiatingDocument;
-    /* TODO implement reply sending via Email and Post */
-    /*
-    private Email outcomingDocSentEmail;
-    private String outcomingDocSentAddress;
-    private GregorianCalendar outcomingDocSentAddressDate;
-    */
+    private Email docSentEmail;
+    private Address docSentAddress;
+    private GregorianCalendar docSentAddressDate;
+
+    public void setDocSentEmail(Email email) {
+        this.docSentEmail = email;
+    }
+
+    public GregorianCalendar getDocSentEmailDate() {
+        if (null != docSentEmail) {
+            return docSentEmail.getEmailSentDate();
+        } else {
+            return null;
+        }
+    }
+
+    public String getDocSentEmailAddress() {
+        if (null != docSentEmail) {
+            return docSentEmail.getEmailToAddresses();
+        } else {
+            return null;
+        }
+    }
+
+    public void setDocSentAddress(Address address) {
+        this.docSentAddress = address;
+    }
+
+    public Address getDocSentAddress() {
+        return this.docSentAddress;
+    }
+
+    public GregorianCalendar getDocSentAddressDate() {
+        return docSentAddressDate;
+    }
+
+    public void setDocSentAddressDate(GregorianCalendar docSentAddressDate) {
+        this.docSentAddressDate = docSentAddressDate;
+    }
 
     public OutcomingDocument(DocumentType documentType, PublicServant publicServant, PublicService publicService) {
         super(documentType, publicServant, publicService);

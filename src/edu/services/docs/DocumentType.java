@@ -4,7 +4,7 @@ package edu.services.docs;
  * Created by yurii.pyvovarenko on 06.03.14.
  *
  * It is no allowed to modify DocumentType object when it is in use or is Finalised.
- * @param docTypeShortName if intended for creating documents numbers
+ * docTypeShortName is intended for creating specific documents numbers
  */
 public class DocumentType {
     boolean isDocTypeInUse = false;
