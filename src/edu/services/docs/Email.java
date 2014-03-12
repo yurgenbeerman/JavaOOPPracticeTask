@@ -14,17 +14,21 @@ public final class Email extends Text {
     private GregorianCalendar emailSentDate;
 
     public Email(String emailFromAddress, String emailToAddress, String emailText) {
+        /* TODO validate passed parameters:
+         *   areEmailAddressesValid(emailFromAddress)
+         *   areEmailAddressesValid(emailToAddress)
+         *   isEmailTextValid(emailText)
+         */
         this.emailFromAddress = emailFromAddress;
         this.emailToAddresses = emailToAddress;
         this.setText(emailText);
     }
 
-    /* IMPORTANT! all setters must check "if (! isEmailSent)" */
+    /* IMPORTANT! all setters must check if isFinalized "if (! isEmailSent)" */
     public void sendEmail() {
         //TODO implement email sending
         this.emailSentDate = new GregorianCalendar();
         this.isFinalized = true;
-
     }
 
     public String getEmailFromAddress() {
@@ -79,11 +83,5 @@ public final class Email extends Text {
 
     public GregorianCalendar getEmailSentDate() {
         return emailSentDate;
-    }
-
-    public void setEmailSentDate(GregorianCalendar emailSentDate) {
-        if (! isFinalized) {
-            this.emailSentDate = emailSentDate;
-        }
     }
 }

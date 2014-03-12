@@ -95,7 +95,6 @@ public class CitizenFieldsTest {
         //given
         Address citizenAddress = new Address();
 
-        //when
         String country = "Ukraine";
         citizenAddress.setCountry(country);
 
@@ -113,6 +112,9 @@ public class CitizenFieldsTest {
 
         String zipCode = "01001";
         citizenAddress.setZipCode(zipCode);
+
+        //when
+        citizen.setAddress(citizenAddress);
 
         //then
         org.junit.Assert.assertEquals(

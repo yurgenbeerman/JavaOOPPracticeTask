@@ -74,6 +74,9 @@ public class Citizen implements Requester, Emailable {
     }
 
     public void setEmailAddress(String emailAddress) {
+        /* TODO validate passed parameter:
+         *   isEmailAddressValid(emailFromAddress)
+         */
         this.emailAddress = emailAddress;
     }
 
