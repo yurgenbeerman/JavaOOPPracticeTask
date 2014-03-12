@@ -1,6 +1,7 @@
 package edu.services;
 
 import edu.clients.Citizen;
+import edu.clients.Requester;
 import edu.communications.Address;
 import edu.services.docs.*;
 import edu.services.orgs.PublicService;
@@ -27,9 +28,9 @@ public class PublicServiceDemo {
         DocumentType outcomingDocType = new DocumentType("Outcoming_Document", "Out_",outcomingDocLifecycle);
         outcomingDocType.setFinalized(true);
 
-        Citizen citizen = new Citizen("Petrenko","Taras","Ivanovych");
-        citizen.setEmailAddress("citizen@gmail.com");
-        citizen.setOfficialId("1234567890");
+        Requester requester = new Citizen("Petrenko","Taras","Ivanovych");
+        requester.setEmailAddress("citizen@gmail.com");
+        requester.setOfficialId("1234567890");
         Address citizenAddress = new Address();
         citizenAddress.setCountry("Ukraine");
         citizenAddress.setRegion("Kyivska obl.");
@@ -39,7 +40,7 @@ public class PublicServiceDemo {
         citizenAddress.setBuilding("1A");
         citizenAddress.setApartment("123H");
         citizenAddress.setZipCode("01001");
-        citizen.setAddress(citizenAddress);
+        requester.setAddress(citizenAddress);
 
         PublicService publicService = new PublicService("Improvements service");
         publicService.setHierarchyLevel(1);
@@ -58,27 +59,27 @@ public class PublicServiceDemo {
         /* INITIALIZATION end */
 
         /* Assume a user (Citizen wants to create s Request */
-        if (( citizen.getRequesterOfficialId() != null) && (citizen.getRequesterOfficialId() != "")) {
-            if ( citizen.getRequesterOfficialId().length() != 10 ) {
-                System.out.println("RequesterOfficialId is wrong: " + citizen.getRequesterOfficialId() + ". We can not allow to create a request. You still may email to us.");
+        if (( requester.getOfficialId() != null) && (requester.getOfficialId() != "")) {
+            if ( requester.getOfficialId().length() != 10 ) {
+                System.out.println("RequesterOfficialId is wrong: " + requester.getOfficialId() + ". We can not allow to create a request. You still may email to us.");
                 System.exit(2);
             }
         } else {
-            System.out.println("There's no RequesterOfficialId: " + citizen.getRequesterOfficialId() + ". We can not allow to create a request. You still may email to us.");
+            System.out.println("There's no RequesterOfficialId: " + requester.getOfficialId() + ". We can not allow to create a request. You still may email to us.");
             System.exit(1);
         }
 
         InformationRequest infoRequest =
-                new InformationRequest(infoRequestDocType, citizen, publicService);
+                new InformationRequest(infoRequestDocType, requester, publicService);
         infoRequestDocType.setDocTypeInUse(true);
         infoRequest.setText("What parks and streets improvements are planned for 2014 in Kyiv?");
-        infoRequest.setAddressForReply(citizen.getAddressString());
-        infoRequest.setEmailForReply(citizen.getEmailAddress());
+        infoRequest.setAddressForReply(requester.getAddressString());
+        infoRequest.setEmailForReply(requester.getEmailAddress());
 
         if (infoRequest != null) {
-            citizen.addRequest(infoRequest);
-            System.out.println("citizen: " + citizen.getFullNameString());
-            System.out.println("    citizenId: " + citizen.getCitizenId());
+            requester.addRequest(infoRequest);
+            System.out.println("citizen: " + requester.getFullNameString());
+            System.out.println("    citizenId: " + requester.getId());
             System.out.println("\npublicService: " + publicService.getOrgName() + "\n");
             System.out.println(infoRequest.toString());
         } else {
@@ -104,23 +105,23 @@ public class PublicServiceDemo {
         outcomingDocument.setInitiatingDocument(infoRequest);
         outcomingDocument.setNextDocumentStatus();
 
-        outcomingDocument.publishToRequester(citizen);
+        outcomingDocument.publishToRequester(requester);
         outcomingDocument.setNextDocumentStatus();
         infoRequest.setNextDocumentStatus();
         infoRequest.setFinalized(true);
 
         printStatusAndAssignee(infoRequest, infoRequest.getAuthorName());
 
-        Email email = new Email(publicService.getEmailAddress(), citizen.getEmailAddress(),
+        Email email = new Email(publicService.getEmailAddress(), requester.getEmailAddress(),
                 informationResponsibleServant.getInformationForReply());
         email.sendEmail();
-        publicService.sendDocumentToAddress(outcomingDocument,citizen.getAddress());
+        publicService.sendDocumentToAddress(outcomingDocument,requester.getAddress());
         outcomingDocument.setNextDocumentStatus();
         outcomingDocument.setFinalized(true);
 
         System.out.println("\ninfoRequest statuses history: " + infoRequest.getStatusesHistoryString());
-        System.out.println("\ncitizen sent the next requests:\n   " + citizen.getRequestsString());
-        System.out.println("\ncitizen got the next responses:\n   " + citizen.getResponsesString());
+        System.out.println("\ncitizen sent the next requests:\n   " + requester.getRequestsString());
+        System.out.println("\ncitizen got the next responses:\n   " + requester.getResponsesString());
 
     }
 

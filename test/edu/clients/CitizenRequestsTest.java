@@ -3,6 +3,7 @@ import edu.services.docs.DocumentLifecycle;
 import edu.services.docs.DocumentType;
 import edu.services.docs.IncomingDocument;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -94,6 +95,6 @@ public class CitizenRequestsTest extends CitizenTestsBasics {
         //when
 
         //then
-        org.junit.Assert.assertTrue("citizenId should be > 0", citizen.getCitizenId() > 0);
+        Assert.assertTrue("citizenId should be > 0", citizen.getId() > 0);
     }
 }

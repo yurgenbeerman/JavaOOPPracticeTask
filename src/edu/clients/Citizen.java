@@ -81,20 +81,12 @@ public class Citizen implements Requester, Emailable {
         this.address = address;
     }
 
-    public long getCitizenId() {
+    public long getId() {
         return citizenId;
     }
 
-    public String getRequesterOfficialId() {
-        return getOfficialId();
-    }
-
-    public String getRequesterName() {
+    public String getName() {
         return this.getFullNameString();
-    }
-
-    public String getRequesterAddress() {
-        return this.getAddressString();
     }
 
     public String getOfficialId() {

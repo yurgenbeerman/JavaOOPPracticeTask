@@ -3,7 +3,6 @@ package edu.services.docs;
 import edu.clients.Requester;
 import edu.services.orgs.PublicService;
 
-import java.util.ArrayList;
 import java.util.GregorianCalendar;
 
 /**
@@ -55,6 +54,7 @@ public class OrganizationDocument extends Text {
         private Requester author;
         */
         // TODO ask if isValid before status tranzitions etc.
+        return true;
     }
 
     public long getDocumentId() {
@@ -183,6 +183,6 @@ public class OrganizationDocument extends Text {
     }
 
     public String getAuthorName() {
-        return this.getAuthor().getRequesterName();
+        return this.getAuthor().getName();
     }
 }
