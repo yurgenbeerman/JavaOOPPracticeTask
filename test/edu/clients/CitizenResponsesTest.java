@@ -41,6 +41,20 @@ public class CitizenResponsesTest extends CitizenTestsBasics {
     }
 
     @Test
+    public void ResponseTextTest() throws Exception {
+        //given
+
+        //when
+        outcomingDocument.setText("1");
+        citizen.addResponse(outcomingDocument);
+
+        //TODO check value of infoResponse.isValid()
+
+        //then
+        org.junit.Assert.assertFalse("Response text can not be empty string: " + citizen.getResponses().get(0).getText() + ".",citizen.getResponses().get(0).getText().equals(""));
+    }
+
+    @Test
     public void testGetResponsesString() throws Exception {
         //given
         outcomingDocument.setText("responce text");

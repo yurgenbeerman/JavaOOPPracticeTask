@@ -42,7 +42,11 @@ public class Citizen implements Requester, Emailable {
     }
 
     public ArrayList<IncomingDocument> getRequests() {
-        return this.requests;
+        if (null != requests) {
+            return this.requests;
+        } else {
+            return null;
+        }
     }
 
     public String getRequestsString() {

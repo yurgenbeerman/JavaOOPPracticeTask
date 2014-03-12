@@ -18,6 +18,10 @@ public class OutcomingDocument extends OrganizationDocument {
     private Address docSentAddress;
     private GregorianCalendar docSentAddressDate;
 
+    public String isValid() {
+        return super.isValid();
+    }
+
     public void setDocSentEmail(Email email) {
         this.docSentEmail = email;
     }

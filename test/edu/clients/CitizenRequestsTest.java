@@ -26,6 +26,7 @@ public class CitizenRequestsTest extends CitizenTestsBasics {
         infoRequest = new IncomingDocument(infoRequestDocType, citizen, publicService);
     }
 
+
     @Test
     public void shouldBeOneRequest_whenFirstAddRequest() throws Exception {
         //given
@@ -61,6 +62,18 @@ public class CitizenRequestsTest extends CitizenTestsBasics {
 
         //then
         org.junit.Assert.assertNotNull("After addition the first request should not be null", citizen.getRequests().get(0));
+    }
+
+    @Test
+
+    public void shouldNotFail_whenGetRequestsString_and_NoRequestsAdded() throws java.lang.IndexOutOfBoundsException {
+        //given
+
+        //when
+
+        //then
+
+        Assert.assertEquals(0, citizen.getRequests().size());
     }
 
     @Test

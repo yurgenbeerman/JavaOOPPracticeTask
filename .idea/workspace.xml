@@ -64,11 +64,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CitizenResponsesTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PublicServiceDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1365" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="2550">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CitizenResponsesTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.62171054" vertical-offset="308" max-vertical-offset="1224">
+            <state line="47" column="36" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-3.0" vertical-offset="549" max-vertical-offset="1462">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Citizen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-4.9615383" vertical-offset="551" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CitizenFieldsTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="116" column="76" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.32" vertical-offset="1828" max-vertical-offset="2720">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +105,7 @@
       <file leaf-file-name="CitizenRequestsTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="33" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1836">
+            <state line="75" column="51" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-7.5" vertical-offset="978" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -85,7 +114,7 @@
       <file leaf-file-name="JavaSourceFileExample.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088">
+            <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -94,7 +123,16 @@
       <file leaf-file-name="OrganizationDocument.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="3434">
+            <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncomingDocument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/IncomingDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="647" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -103,7 +141,7 @@
       <file leaf-file-name="OutcomingDocument.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
+            <state line="23" column="4" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
@@ -113,42 +151,6 @@
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentLifecycle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CitizenTestsBasics.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FullName.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -164,16 +166,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/FullNameTest.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java" />
         <option value="$PROJECT_DIR$/src/edu/clients/Requester.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java" />
         <option value="$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java" />
-        <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
+        <option value="$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java" />
+        <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
       </list>
     </option>
   </component>
@@ -207,6 +210,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +293,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -456,7 +459,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
     <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
   </component>
-  <component name="RunManager" selected="JUnit.CitizenResponsesTest">
+  <component name="RunManager" selected="JUnit.CitizenFieldsTest">
     <configuration default="false" name="PublicServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.services.PublicServiceDemo" />
       <option name="VM_PARAMETERS" />
@@ -517,6 +520,50 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="edu.clients in JavaOOPPracticeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOPPracticeTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.clients" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CitizenFieldsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOPPracticeTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.clients" />
+      <option name="MAIN_CLASS_NAME" value="edu.clients.CitizenFieldsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -551,6 +598,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -576,19 +636,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -644,16 +691,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.PublicServiceDemo" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CitizenRequestsTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CitizenResponsesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.edu.clients in JavaOOPPracticeTask" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CitizenFieldsTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CitizenResponsesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CitizenRequestsTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PublicServiceDemo" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CitizenFieldsTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PublicServiceDemo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.edu.clients in JavaOOPPracticeTask" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CitizenRequestsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CitizenResponsesTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -672,7 +723,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -684,14 +735,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2293578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40229884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18390805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -720,6 +771,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="89" selection-start="6926" selection-end="6935" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="2686">
@@ -800,10 +872,7 @@
     <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2176">
-          <folding>
-            <element signature="e#2562#2563#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +935,9 @@
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1411">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -982,13 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.26385808" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1020">
@@ -999,37 +1063,6 @@
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="89" selection-start="6926" selection-end="6935" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="2686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="40" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#2562#2563#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="33" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
@@ -1048,10 +1081,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/IncomingDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="647" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.62171054" vertical-offset="308" max-vertical-offset="1224">
+        <state line="47" column="36" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-3.0" vertical-offset="549" max-vertical-offset="1462">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1365" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="-4.9615383" vertical-offset="551" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenRequestsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="51" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-7.5" vertical-offset="978" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="76" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.32" vertical-offset="1828" max-vertical-offset="2720">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
