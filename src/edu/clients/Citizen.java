@@ -125,6 +125,6 @@ public class Citizen implements Requester, Emailable {
     }
 
     public String toString() {
-        return this.getFullName().name;
+        return this.getFullName().getName();
     }
 }

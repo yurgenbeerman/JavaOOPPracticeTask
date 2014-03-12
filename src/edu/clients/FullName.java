@@ -4,9 +4,9 @@ package edu.clients;
  * Created by yurii.pyvovarenko on 3/4/14.
  */
 public class FullName {
-    String name;
-    String secondName;
-    String surname;
+    private String name;
+    private String secondName;
+    private String surname;
 
     public FullName(String surname, String name, String secondName) {
         this.name = name;
@@ -16,5 +16,9 @@ public class FullName {
 
     public String toString() {
         return (surname + " " + name + " " + secondName);
+    }
+
+    public String getName() {
+        return name;
     }
 }

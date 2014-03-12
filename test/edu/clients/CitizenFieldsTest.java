@@ -168,6 +168,17 @@ public class CitizenFieldsTest {
 
     @Test
     public void testToString() throws Exception {
+        //when
+        citizen = new Citizen("","Tag","");
 
+        //then
+        org.junit.Assert.assertEquals("Tag", citizen.toString());
+    }
+
+    @Test
+    public void testToString_whenNoNameDefined() throws Exception {
+        //when
+        //then
+        org.junit.Assert.assertNull(citizen.getOfficialId());
     }
 }
