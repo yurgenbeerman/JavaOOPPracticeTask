@@ -8,9 +8,7 @@ import edu.services.orgs.PublicService;
  */
 public class PublicServant extends Citizen {
     private static long lastPublicServantId;
-
     private long publicServantId;
-    //private long chiefId;
     private long orgId;
 
     public PublicServant(PublicService organization, String surname, String name, String secondName) {
@@ -24,18 +22,6 @@ public class PublicServant extends Citizen {
 
     public long getPublicServantId() {
         return publicServantId;
-    }
-
-    public void setPublicServantId(long publicServantId) {
-        this.publicServantId = publicServantId;
-    }
-
-    public long getOrgId() {
-        return orgId;
-    }
-
-    public void setOrgId(long orgId) {
-        this.orgId = orgId;
     }
 
     public String toString() {

@@ -75,6 +75,7 @@ public class OutcomingDocument extends OrganizationDocument {
         return initiatingDocument;
     }
 
+    /* IMPORTANT! Each doc field setter (modifier method) body must be enclosed by "if (!isFinalized) {}" ! */
     public void setInitiatingDocument(OrganizationDocument initiatingDocument) {
         if (!isFinalized) {
             this.initiatingDocument = initiatingDocument;
@@ -95,6 +96,4 @@ public class OutcomingDocument extends OrganizationDocument {
                         "\n    initiatingDocument Number: " + getInitiatingDocumentNumber();
         return super.toString() + result;
     }
-
-    /* IMPORTANT! Each setter (modifier method) body must be enclosed by "if (!isFinalized) {}" ! */
 }
