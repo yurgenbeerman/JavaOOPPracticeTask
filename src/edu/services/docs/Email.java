@@ -23,9 +23,9 @@ public final class Email extends Text {
          *     1) http://commons.apache.org/proper/commons-validator/download_validator.cgi
          *     2) https://java.net/projects/javamail/pages/Home#Download_JavaMail_1.5.1_Release
          */
-        this.emailFromAddress = emailFromAddress;
-        this.emailToAddresses = emailToAddress;
-        this.setText(emailText);
+        setEmailFromAddress(emailFromAddress);
+        setEmailToAddresses(emailToAddress);
+        setText(emailText);
     }
 
     /* IMPORTANT! all setters must check if isFinalized "if (! isEmailSent)" */

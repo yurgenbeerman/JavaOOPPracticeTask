@@ -36,8 +36,8 @@ public class OrganizationDocument extends Text {
         this.documentType = documentType;
         this.documentNumber = documentType.getDocTypeShortName() + this.documentId;
         this.documentStatus = new DocumentStatus(documentType.getDocumentLifecycle());
-        this.documentCreationDate = documentStatus.getZeroStatusDate();
-        this.documentAuthorId = author.getId();
+        this.setDocumentCreationDate(documentStatus.getZeroStatusDate());
+        this.setDocumentAuthorId(author.getId());
 
     }
 
@@ -129,14 +129,6 @@ public class OrganizationDocument extends Text {
         return documentType;
     }
 
-    /*
-     * I think we do not need to change document type after its creation
-     *
-     * public void setDocumentType(DocType documentType) {
-     *   this.documentType = documentType;
-     * }
-    */
-
     public String getDocumentNumber() {
         return documentNumber;
     }
@@ -175,20 +167,8 @@ public class OrganizationDocument extends Text {
         return orgId;
     }
 
-    public void setOrgId(long orgId) {
-        if (! isFinalized) {
-            this.orgId = orgId;
-        }
-    }
-
     public Requester getAuthor() {
         return author;
-    }
-
-    public void setAuthor(Requester author) {
-        if (! isFinalized) {
-            this.author = author;
-        }
     }
 
     public String getText() {

@@ -11,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -64,31 +69,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Citizen.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
+      <file leaf-file-name="DocumentType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="95" selection-start="2421" selection-end="2421" vertical-scroll-proportion="-0.2712766" vertical-offset="1360" max-vertical-offset="2057">
-              <folding>
-                <element signature="e#2480#2481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CitizenFieldsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="0" selection-start="2692" selection-end="2692" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3536">
+            <state line="8" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizationDocument.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OrganizationDocument.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3842">
+            <state line="173" column="0" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.454321" vertical-offset="2383" max-vertical-offset="3094">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganizationDocumentTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/edu/services/docs/OrganizationDocumentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="22" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +101,7 @@
       <file leaf-file-name="IncomingDocument.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/IncomingDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="647" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1615">
+            <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -114,7 +119,7 @@
       <file leaf-file-name="Email.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="9" selection-start="672" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1649">
+            <state line="8" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -123,7 +128,7 @@
       <file leaf-file-name="EmailTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/services/docs/EmailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="8" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1360">
+            <state line="77" column="47" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -132,7 +137,7 @@
       <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/communications/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="63" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1224">
+            <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -141,7 +146,7 @@
       <file leaf-file-name="AddressTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/edu/communications/AddressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1530">
+            <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -150,7 +155,7 @@
       <file leaf-file-name="DocDefaults.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocDefaults.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1483" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="731">
+            <state line="10" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -169,7 +174,6 @@
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java" />
         <option value="$PROJECT_DIR$/src/edu/clients/Requester.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java" />
-        <option value="$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java" />
         <option value="$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenResponsesTest.java" />
@@ -178,18 +182,45 @@
         <option value="$PROJECT_DIR$/test/edu/clients/FullNameTest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/DocDefaults.java" />
         <option value="$PROJECT_DIR$/src/edu/communications/Address.java" />
-        <option value="$PROJECT_DIR$/test/edu/communications/AddressTest.java" />
         <option value="$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java" />
-        <option value="$PROJECT_DIR$/test/edu/services/docs/EmailTest.java" />
         <option value="$PROJECT_DIR$/test/edu/clients/CitizenFieldsTest.java" />
-        <option value="$PROJECT_DIR$/src/edu/services/docs/Email.java" />
         <option value="$PROJECT_DIR$/src/edu/clients/Citizen.java" />
+        <option value="$PROJECT_DIR$/test/edu/communications/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/services/docs/Email.java" />
+        <option value="$PROJECT_DIR$/test/edu/services/docs/EmailTest.java" />
+        <option value="$PROJECT_DIR$/test/edu/services/docs/OrganizationDocumentTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1366" />
     <option name="height" value="738" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -301,6 +332,140 @@
         </subPane>
       </pane>
       <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="services">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="services">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="docs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="communications">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="clients">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -351,10 +516,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="communications">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -365,15 +526,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test">
+            <PATH_ELEMENT USER_OBJECT="src">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="edu">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="clients">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -391,6 +548,40 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="services">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="JavaOOPPracticeTask">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="edu">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="services">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="docs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -403,7 +594,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -412,25 +603,25 @@
     <property name="FullScreen" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jacoco-0.6.6/lib/jacocoagent.jar!/" />
     <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/../JavaPracticeTasks_BACKUPS/2014_03_12_done at work/JavaOOPPracticeTask/src" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="edu.services.docs" />
       <recent name="edu.communications" />
       <recent name="edu.clients" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in JavaOOPPracticeTask">
+  <component name="RunManager" selected="JUnit.All in JavaOOPPracticeTask (1)">
     <configuration default="false" name="edu.clients in JavaOOPPracticeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOPPracticeTask" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -439,28 +630,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FullNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOPPracticeTask" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.clients" />
-      <option name="MAIN_CLASS_NAME" value="edu.clients.FullNameTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,6 +696,28 @@
       <option name="MAIN_CLASS_NAME" value="edu.services.docs.EmailTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in JavaOOPPracticeTask (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOPPracticeTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -670,18 +861,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.edu.clients in JavaOOPPracticeTask" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FullNameTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddressTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmailTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddressTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmailTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmailTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddressTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.edu.clients in JavaOOPPracticeTask" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FullNameTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in JavaOOPPracticeTask" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmailTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddressTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.edu.clients in JavaOOPPracticeTask" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -690,6 +881,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5999f06e-8e77-4e4b-a289-b6030cc77e09" name="Default" comment="" />
@@ -700,30 +908,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17660551" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.13914374" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2293578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25779969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25779969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -755,11 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OutcomingDocument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="9" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1734">
@@ -769,17 +972,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275" />
+        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1275">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853" />
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890" />
+        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2890">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
@@ -798,26 +1007,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clients/Requester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="612" />
+        <state line="23" column="39" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="0" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2176">
           <folding>
-            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="false" />
+            <element signature="e#2480#2481#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1275" />
+        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1275">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/communications/Emailable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255" />
+        <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
@@ -829,17 +1045,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1190" />
+        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1190">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853" />
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="52853">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678" />
+        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
@@ -907,7 +1129,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678" />
+        <state line="17" column="1" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5678">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
@@ -926,46 +1150,14 @@
     </entry>
     <entry file="jar://E:/java/jdk1.7.0_45/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="52292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/communications/Emailable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="52292">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/CitizenTestsBasics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/practice1/JavaSourceFileExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="3434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/IncomingDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="647" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
@@ -991,18 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clients/Requester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/clients/FullNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="61" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="799">
@@ -1010,35 +1190,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocDefaults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1483" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/communications/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="63" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/services/PublicServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1637" selection-end="1779" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="985" selection-end="985" vertical-scroll-proportion="0.46703297" vertical-offset="255" max-vertical-offset="2703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/services/docs/EmailTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="8" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
@@ -1052,24 +1206,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/communications/AddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="672" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1428">
+        <state line="10" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/clients/Citizen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="95" selection-start="2421" selection-end="2421" vertical-scroll-proportion="-0.2712766" vertical-offset="1360" max-vertical-offset="2057">
+        <state line="15" column="13" selection-start="507" selection-end="507" vertical-scroll-proportion="-3.3234568" vertical-offset="1516" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/FullName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="-0.5530864" vertical-offset="343" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/clients/Requester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/communications/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/communications/Emailable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocDefaults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentLifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="73" selection-start="775" selection-end="775" vertical-scroll-proportion="-4.9185185" vertical-offset="2298" max-vertical-offset="2703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/DocumentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/services/docs/EmailTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="47" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/IncomingDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/InformationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/services/docs/OrganizationDocumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding>
-            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/services/docs/OrganizationDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="0" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.454321" vertical-offset="2383" max-vertical-offset="3094">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +1395,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit:junit:4.10</last-edited>
+          <last-edited>jacocoagent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
