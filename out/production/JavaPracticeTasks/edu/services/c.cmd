@@ -1,1 +1,0 @@
-javac @options.txt @files.txt
